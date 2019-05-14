@@ -409,18 +409,7 @@
  }
 
 
-/*
-.nameabout {
-    grid-column: 1;
-     grid-row:2;
-}
-.nameabout p{
-    font-size:3vw;
-    
-    font-family: 'Happy Sprat Cyrillic 2 Regular';
-    
-}
-*/
+
  .photo {
      display: grid;
      background-color: ;
