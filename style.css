@@ -313,7 +313,7 @@
 
 
  .info {
-     font-family: 'Cambria Math';
+     font-family:'Roboto', sans-serif;
      grid-row: 2/6;
      grid-column: auto;
      background-color: ;
@@ -515,7 +515,7 @@
  }
 
  .card h4 {
-     font-family: 'Cambria Math Regular' ;
+     font-family:'Roboto', sans-serif;
 
      line-height: 20px;
      position: relative;
@@ -614,7 +614,7 @@
      display: grid;
      background-color:;
      grid-row: 3;
-     font-family: 'Cambria Math Regular';
+     font-family:'Roboto', sans-serif;
 
  }
 
