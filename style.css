@@ -7,7 +7,7 @@
      padding: 0;
      display: grid;
      grid-template-columns: 1fr 10%;
-     background-image: url(images/20.png);
+     background-image: url(images/21.jpg);
      background-repeat: no-repeat;
      background-size: contain;
  }
@@ -123,7 +123,7 @@
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      grid-column: 1 / 4;
-     background-image: url(images/20.png);
+     background-image: url(images/21.jpg);
      background-size: contain;
      padding: 5rem 1rem;
      background-repeat: repeat;
@@ -303,8 +303,8 @@
      grid-column: 1/2;
      display: grid;
      align-items: center;
-     font-size: 3vw;
-     font-family: 'Happy Sprat Cyrillic 2 Regular';
+     font-size: 2vw;
+     font-family: 'Comfortaa', cursive;
      color:#020032;
 
  }
@@ -368,7 +368,7 @@
  }
 
  .page3 img {
-     transition: 0, 25s;
+     transition: 1s;
  }
 
 
@@ -538,8 +538,21 @@
      top: -6%;
      left: -6%;
      z-index:1;
+    transition: 1s;
+     
+     
 
  }
+
+
+.card > a img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.15, 1.15); 
+    
+ }
+
+
+
 
  .card-color-0 {
      background-color: #fff;
@@ -579,9 +592,9 @@
  }
 
  .design p {
-     font-size:3vw;
+     font-size:2vw;
      align-self: center;
-     font-family: 'Happy Sprat Cyrillic 2 Regular';
+     font-family:'Comfortaa', cursive;
      color:#020032;
 
  }
@@ -615,9 +628,9 @@
 
  }
 .serv p {
-   font-size: 3vw;
+   font-size: 2vw;
    align-self: flex-end;
-   font-family: 'Happy Sprat Cyrillic 2 Regular';
+   font-family: 'Comfortaa', cursive;
     color:#020032;
 }
 
